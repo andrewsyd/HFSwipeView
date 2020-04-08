@@ -13,10 +13,6 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/andrewsyd/TinyLog",
-            .branch("master")
-        ),
-        .package(
             url: "https://github.com/dengladyshev/PureLayout",
             .branch("master")
         ),
@@ -24,7 +20,7 @@ let package = Package(
     targets: [
         .target(
             name: "HFSwipeView",
-            dependencies: ["TinyLog", "PureLayout"],
+            dependencies: ["PureLayout"],
             path: "HFSwipeView"),
     ]
 )
