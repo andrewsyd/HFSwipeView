@@ -21,9 +21,6 @@
   },
   "source_files": "HFSwipeView/Classes/**/*",
   "dependencies": {
-    "TinyLog": [
-
-    ],
     "PureLayout": [
 
     ]

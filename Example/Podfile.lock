@@ -1,29 +1,24 @@
 PODS:
   - HFSwipeView (2.0.1):
     - PureLayout
-    - TinyLog
   - PureLayout (3.0.2)
-  - TinyLog (1.0.1)
 
 DEPENDENCIES:
   - HFSwipeView (from `../`)
   - PureLayout
-  - TinyLog
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - PureLayout
-    - TinyLog
 
 EXTERNAL SOURCES:
   HFSwipeView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HFSwipeView: 74008a74102b642d32750375b8c2d9b94338af47
+  HFSwipeView: 1cb1f4fedc794c4bc65f398e3b693caf41a84a4f
   PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
-  TinyLog: 6c3ecbc348d10dc242ebb506f684fc9ae6aff533
 
-PODFILE CHECKSUM: 2d413bcaa4b693917f61e1405f6097f73b0ea261
+PODFILE CHECKSUM: a282dedeb44cb0d9bd3c74713880d44d1dcf07e0
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.9.1

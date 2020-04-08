@@ -7,153 +7,154 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00834ADD831A313F1F0C25940B2DBF87 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2FDCCF3D72F0736CC09B7323B17782 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		044D97AA54EAFBFCC45A47C1B4464FAA /* HFSwipeView+Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EE50C8A1A81DFE61564F81DB7F9B34 /* HFSwipeView+Page.swift */; };
-		12B528E2CA78941824B8F57B1563E2A2 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F452510C066F69D79FA71F5D6C693EB /* ALView+PureLayout.m */; };
-		1F7A98B02953BA4D656446700586AA37 /* HFSwipeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 882039B3BB270CC61B4E854C539E6EA2 /* HFSwipeView-dummy.m */; };
-		21813E20681CB956F780B0DB45420367 /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76426C3A61A2AE8DF1AF6B1F61DC4D4B /* PureLayout-dummy.m */; };
-		2357BF94A6D8B6A61927A1F50737DAF8 /* Pods-HFSwipeView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CFC6D85E90301F900BD31ABCD4342F /* Pods-HFSwipeView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F1C9082EBF4403808D598E1A78882C0 /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B22FB4308E58AB87B57A26464E7CDD /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DD6D3BC9455D021F4437C92548FA364 /* Pods-HFSwipeView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C659E826150E2A8A5539644A95DCC5D7 /* Pods-HFSwipeView_Example-dummy.m */; };
-		4DF72A6D8DC0A1F063208A1CCC9AD3A8 /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1627BF59830B90CC76C69946579C7A0C /* PureLayout.framework */; };
-		51F6577E8FA55C75AECBC57466C8D73E /* HFSwipeView+AutoSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C627975DF85057F4F2E7D99B8F36FF /* HFSwipeView+AutoSlide.swift */; };
-		5580B6AAB4F8CF46A567F96090ADFD3A /* HFSwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD375FCD41AEEFA7F910304DA8446DE /* HFSwipeView.swift */; };
-		5613F471011B88018A528A9D7B6B77A5 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 71709B939E91C75A435CC1D7C388EEAD /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A54235CF8355596FF185C4DFBD4224E /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = EBCC679DCE80B1C6B8630DF85AAD1A49 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6636ED225448C5C3F29F723F5547B71D /* HFSwipeView+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3723E8563CF51A9DAB46E8885C5A744C /* HFSwipeView+Utility.swift */; };
-		752FE32705F40586DD428179CAE69F92 /* HFSwipeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20431867272AB5AC503E9E65A20CCF61 /* HFSwipeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78343594D457B8975059C8126EAB1EF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEE36AA27C12301BF62586C57679543 /* Foundation.framework */; };
-		851C007013F347FFED383FBB21C1CB31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEE36AA27C12301BF62586C57679543 /* Foundation.framework */; };
-		90A6E978829D1AFE34108D4F14697586 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BDACE421BEDE29F1120BC9F9DA8BEC5 /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92E450B4E7EE1D8B98D616BDE916CE6F /* HFSwipeView+Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0472D715DC6234414CEEE091F4D31B /* HFSwipeView+Offset.swift */; };
-		B0E7AFF45A59184EC4FCB29A6BAD1911 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4497FD627C4761AF887B21C33E180B0C /* NSArray+PureLayout.m */; };
-		C01DACFB84BA98CC561488FE4E567FD9 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B20B7EF06E90077292CDA72022447A4C /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C70575B1DDF159BFBC7CCFDB3F49515C /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 413A6FF54B3CD68C2A56027F590116AE /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D093D951227A3B4E9E36E2E40306AE31 /* HFSwipeView+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39EAA53047642479633CA28FAAE0774 /* HFSwipeView+Delegate.swift */; };
-		D1B6672B3E606FA20448F19B8AE29D2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEE36AA27C12301BF62586C57679543 /* Foundation.framework */; };
-		D1D9B581E24B57CDA7561EAFFA37166A /* HFSwipeView+Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BC0E0776F3DB241894B62D66B3160 /* HFSwipeView+Index.swift */; };
-		D320D37FDE1A297739901258B28DE0BD /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF728ED12486F71A7CFBCA7BA5B16D0 /* NSLayoutConstraint+PureLayout.m */; };
-		E362C99126B3C67C1298402C574D068B /* HFSwipeView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B93F723FEA3CE87AA4315DABE177EE2 /* HFSwipeView+Animation.swift */; };
+		1FBD2A08D29D7AAAD4C5D2198691D74E /* HFSwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458ADFA14BF4CD92C9981A9DF9DF44A2 /* HFSwipeView.swift */; };
+		22FF411294AF5E842305EF56D9364F03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E1C8ECFE9284F04F4D4F2A875AA4C1 /* Foundation.framework */; };
+		31D3E2CABD248F83B86FBD799DCF505C /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 612A8F178DE352A805ACD25C44C62955 /* NSArray+PureLayout.m */; };
+		3DCA3085F7DD782A6D5C3B7F2D6E9A14 /* Pods-HFSwipeView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CFC6D85E90301F900BD31ABCD4342F /* Pods-HFSwipeView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A3B94C897F21777FA085B543EA2C65D /* HFSwipeView+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC62BD4F76BB251AB0CCEC7C966968 /* HFSwipeView+Utility.swift */; };
+		4B45E7256A78106F5DEFDD4E53B3C067 /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B207639271F0B3AD2D7C527B48C530 /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		516D98B037D8B96D7D965E28C5B5E488 /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3391B4FA48EC4B1EC8D9E68BE9142FFB /* PureLayout-dummy.m */; };
+		5E0F2FF20918EE711D13AA7C9FF21771 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E1C8ECFE9284F04F4D4F2A875AA4C1 /* Foundation.framework */; };
+		5E1E7EC8750B2FEB3ADFDA0D13445A58 /* HFSwipeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8B4360B0FB43FEC57F7BB022EF6D6C5 /* HFSwipeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63C0929E43D71CD864423662221DCF6F /* HFSwipeView+Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31E29D39349C732BCACDFAC9FB5EAA2 /* HFSwipeView+Page.swift */; };
+		6461AB69D2B60F118C3CCD7B221A1D8C /* HFSwipeView+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79F85574F7745F7EA79F35F648EC567 /* HFSwipeView+Delegate.swift */; };
+		6F46DED147AE43CD2A25B367EEEC1D8F /* HFSwipeView+Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A98A9017A1606DC28644E3B52516D63 /* HFSwipeView+Offset.swift */; };
+		76F798DAE7B544DD20001CC5E0F664FA /* HFSwipeView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74D0C388CC9980C7DB98CFC30256F8C /* HFSwipeView+Animation.swift */; };
+		8648F39D61D1ADEDBEE3E65FD8845E08 /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06AA4C08CD7F731602FF781270AE453 /* PureLayout.framework */; };
+		94E93C8DA12A882C8E2072E8620FD954 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 45AC65611F73E1FFBCF46C219B705712 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FBDE32DAFCEE924C5DB842E259B0BA7 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 950BFB13C3F461C7AC6E88BDA4CCC3F1 /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACB07A7494022E0C6B719CE6055F41B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E1C8ECFE9284F04F4D4F2A875AA4C1 /* Foundation.framework */; };
+		BDEE89012AF76404281099A63A8D5379 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F66714670BEA2F02A67149FFDEEDEA6 /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE14F80C18579C825AF04D79768E59B0 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 2810148A7EBC87627DB1E287B24403AE /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE88B5E9BC3D536B1A0654782E244D69 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 72503E8459A11CE9484D8DE1FAD02FB2 /* ALView+PureLayout.m */; };
+		C2FF7B55B06241AA398E606B178C6688 /* Pods-HFSwipeView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C659E826150E2A8A5539644A95DCC5D7 /* Pods-HFSwipeView_Example-dummy.m */; };
+		C33C2D0907248D16A2D2F4117C2BC66A /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = CE22508875A0D08F4828B1309EE3DEF1 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0816908CFED40430BAFE01DFEDB2D7B /* HFSwipeView+Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAD847C815D50D934CB3938219614F /* HFSwipeView+Index.swift */; };
+		D4625837084E5D958AA0075817646960 /* HFSwipeView+AutoSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5873F5876DFDA77583BBB074C58535FA /* HFSwipeView+AutoSlide.swift */; };
+		D57D5FC493FE3610D69FE0DFABE84D3C /* HFSwipeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEE3F33B9B5644C0636B320132F158E /* HFSwipeView-dummy.m */; };
+		E14DADF691B6BB45D1BF213EBEB0A19B /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C6D25262D32268BEDE0B7F4224B3D0 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2EFDA5A6C086391446E8FBFEB1D9158 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7C0824DBFBE95FCB8AA094AA709D0E /* NSLayoutConstraint+PureLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		04BA5E08FA6DEFEA3E80D36A4F13EB68 /* PBXContainerItemProxy */ = {
+		B39DE2BF4749CEB3AC72FDA6D0C8CA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06F5CDD6235E25837519792853B145A1;
+			remoteInfo = PureLayout;
+		};
+		C58EEC4CDBC0103821A4EACFE78EA8E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06F5CDD6235E25837519792853B145A1;
+			remoteInfo = PureLayout;
+		};
+		CC8B85E3A34F029219D63E53B6CF51C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 25949039E9917492A04DC0809223BFD7;
 			remoteInfo = HFSwipeView;
 		};
-		30468BD599E67C214ADA747932D16E38 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 06F5CDD6235E25837519792853B145A1;
-			remoteInfo = PureLayout;
-		};
-		E7C1191606920FA76FB1B1C49609F8A8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 06F5CDD6235E25837519792853B145A1;
-			remoteInfo = PureLayout;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02E1C8ECFE9284F04F4D4F2A875AA4C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		11EFB4FC47852F9021D3F186683A99D8 /* Pods-HFSwipeView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFSwipeView_Example-Info.plist"; sourceTree = "<group>"; };
-		1627BF59830B90CC76C69946579C7A0C /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B183B135415A53D44B92397BBE8930F /* HFSwipeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFSwipeView.xcconfig; sourceTree = "<group>"; };
+		1A98A9017A1606DC28644E3B52516D63 /* HFSwipeView+Offset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HFSwipeView+Offset.swift"; path = "HFSwipeView/Classes/HFSwipeView+Offset.swift"; sourceTree = "<group>"; };
 		1B7A5C65DC0FB66654B3E7A1EED1243B /* Pods-HFSwipeView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HFSwipeView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1B93F723FEA3CE87AA4315DABE177EE2 /* HFSwipeView+Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HFSwipeView+Animation.swift"; path = "HFSwipeView/Classes/HFSwipeView+Animation.swift"; sourceTree = "<group>"; };
-		1F452510C066F69D79FA71F5D6C693EB /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
-		20431867272AB5AC503E9E65A20CCF61 /* HFSwipeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFSwipeView-umbrella.h"; sourceTree = "<group>"; };
-		2663BEE13FA40913450DAF43C675C3D7 /* HFSwipeView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HFSwipeView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2AD375FCD41AEEFA7F910304DA8446DE /* HFSwipeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HFSwipeView.swift; path = HFSwipeView/Classes/HFSwipeView.swift; sourceTree = "<group>"; };
+		2810148A7EBC87627DB1E287B24403AE /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		28B207639271F0B3AD2D7C527B48C530 /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
 		2F4E7886BC3622A791E658D1CA148375 /* Pods-HFSwipeView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HFSwipeView_Example.modulemap"; sourceTree = "<group>"; };
-		3723E8563CF51A9DAB46E8885C5A744C /* HFSwipeView+Utility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HFSwipeView+Utility.swift"; path = "HFSwipeView/Classes/HFSwipeView+Utility.swift"; sourceTree = "<group>"; };
-		3F74B16EBC7B4E115F1BA220403EA6F5 /* HFSwipeView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HFSwipeView-Info.plist"; sourceTree = "<group>"; };
-		413A6FF54B3CD68C2A56027F590116AE /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
-		4497FD627C4761AF887B21C33E180B0C /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
-		4AF6B88A66271D7350A99C9D16D095DB /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
-		4C8BC0E0776F3DB241894B62D66B3160 /* HFSwipeView+Index.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HFSwipeView+Index.swift"; path = "HFSwipeView/Classes/HFSwipeView+Index.swift"; sourceTree = "<group>"; };
-		4D2FDCCF3D72F0736CC09B7323B17782 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		3391B4FA48EC4B1EC8D9E68BE9142FFB /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
+		44706D7D1B553CDDBD6E1F05672556DA /* HFSwipeView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HFSwipeView-Info.plist"; sourceTree = "<group>"; };
+		458ADFA14BF4CD92C9981A9DF9DF44A2 /* HFSwipeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HFSwipeView.swift; path = HFSwipeView/Classes/HFSwipeView.swift; sourceTree = "<group>"; };
+		45AC65611F73E1FFBCF46C219B705712 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		545B6C6F7715DE1B78FFE60ED9161DFD /* HFSwipeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFSwipeView-prefix.pch"; sourceTree = "<group>"; };
+		5873F5876DFDA77583BBB074C58535FA /* HFSwipeView+AutoSlide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HFSwipeView+AutoSlide.swift"; path = "HFSwipeView/Classes/HFSwipeView+AutoSlide.swift"; sourceTree = "<group>"; };
+		60C6D25262D32268BEDE0B7F4224B3D0 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		612A8F178DE352A805ACD25C44C62955 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
 		6A0D8777897061F5A8D64CFE97EE119A /* Pods-HFSwipeView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFSwipeView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6C25C41340E2DE89B0A87DED243D3B6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		6EDCAB0CE93CC95621A817E41B52C9DC /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PureLayout.modulemap; sourceTree = "<group>"; };
-		70752C22EDD5E401B880E7837CC34741 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		71709B939E91C75A435CC1D7C388EEAD /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
-		76426C3A61A2AE8DF1AF6B1F61DC4D4B /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
-		77A55D21DD8B0C0332048DAA2676A353 /* HFSwipeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFSwipeView-prefix.pch"; sourceTree = "<group>"; };
-		78EE50C8A1A81DFE61564F81DB7F9B34 /* HFSwipeView+Page.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HFSwipeView+Page.swift"; path = "HFSwipeView/Classes/HFSwipeView+Page.swift"; sourceTree = "<group>"; };
-		882039B3BB270CC61B4E854C539E6EA2 /* HFSwipeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HFSwipeView-dummy.m"; sourceTree = "<group>"; };
-		88D5AA651FA797D5750B0C34BB6A5632 /* Pods_HFSwipeView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HFSwipeView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BDACE421BEDE29F1120BC9F9DA8BEC5 /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1C627975DF85057F4F2E7D99B8F36FF /* HFSwipeView+AutoSlide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HFSwipeView+AutoSlide.swift"; path = "HFSwipeView/Classes/HFSwipeView+AutoSlide.swift"; sourceTree = "<group>"; };
+		6C5B60E8D6929B5758E3DF4036643744 /* HFSwipeView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HFSwipeView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		72503E8459A11CE9484D8DE1FAD02FB2 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		72CCDE581952A9C381DAFC2B3CB8B18B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7F66714670BEA2F02A67149FFDEEDEA6 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		88D5AA651FA797D5750B0C34BB6A5632 /* Pods_HFSwipeView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HFSwipeView_Example.framework; path = "Pods-HFSwipeView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		898B63B74E76ECC17906C74615B86E62 /* HFSwipeView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFSwipeView.debug.xcconfig; sourceTree = "<group>"; };
+		8E746E8F0025FFA151E6D6A60F2452CA /* HFSwipeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HFSwipeView.modulemap; sourceTree = "<group>"; };
+		8EEE3F33B9B5644C0636B320132F158E /* HFSwipeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HFSwipeView-dummy.m"; sourceTree = "<group>"; };
+		94AC62BD4F76BB251AB0CCEC7C966968 /* HFSwipeView+Utility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HFSwipeView+Utility.swift"; path = "HFSwipeView/Classes/HFSwipeView+Utility.swift"; sourceTree = "<group>"; };
+		950BFB13C3F461C7AC6E88BDA4CCC3F1 /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A31E29D39349C732BCACDFAC9FB5EAA2 /* HFSwipeView+Page.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HFSwipeView+Page.swift"; path = "HFSwipeView/Classes/HFSwipeView+Page.swift"; sourceTree = "<group>"; };
 		A36EFB0A304575DBA380C6BC291B0EE6 /* Pods-HFSwipeView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFSwipeView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A8B4360B0FB43FEC57F7BB022EF6D6C5 /* HFSwipeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFSwipeView-umbrella.h"; sourceTree = "<group>"; };
+		A9CAE9495A8DA170C83BF7FDFD2E4023 /* HFSwipeView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFSwipeView.release.xcconfig; sourceTree = "<group>"; };
+		AB586A7A8FDC1784D640F872D02B90DB /* PureLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.release.xcconfig; sourceTree = "<group>"; };
 		ABC67CC335A0A98CDC980E4761FE94A8 /* Pods-HFSwipeView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HFSwipeView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ABF728ED12486F71A7CFBCA7BA5B16D0 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
-		ADDBF9ABECEADFDC9D3BFC7FD8F72D67 /* HFSwipeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HFSwipeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B20B7EF06E90077292CDA72022447A4C /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
-		B4B22FB4308E58AB87B57A26464E7CDD /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
-		C39EAA53047642479633CA28FAAE0774 /* HFSwipeView+Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HFSwipeView+Delegate.swift"; path = "HFSwipeView/Classes/HFSwipeView+Delegate.swift"; sourceTree = "<group>"; };
-		C46D643643B30F60F607EB83D81730FC /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		ADDBF9ABECEADFDC9D3BFC7FD8F72D67 /* HFSwipeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HFSwipeView.framework; path = HFSwipeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06AA4C08CD7F731602FF781270AE453 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83D6B9B2B530259D869B941C15ADC5E /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		B86FD6AAE4C8C9F226BEEC1908F6633C /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PureLayout.modulemap; sourceTree = "<group>"; };
+		BF7C0824DBFBE95FCB8AA094AA709D0E /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
 		C659E826150E2A8A5539644A95DCC5D7 /* Pods-HFSwipeView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HFSwipeView_Example-dummy.m"; sourceTree = "<group>"; };
+		C79F85574F7745F7EA79F35F648EC567 /* HFSwipeView+Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HFSwipeView+Delegate.swift"; path = "HFSwipeView/Classes/HFSwipeView+Delegate.swift"; sourceTree = "<group>"; };
+		CE22508875A0D08F4828B1309EE3DEF1 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
 		D1CFC6D85E90301F900BD31ABCD4342F /* Pods-HFSwipeView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HFSwipeView_Example-umbrella.h"; sourceTree = "<group>"; };
-		D94BEB77A107EB0F7B31F6337E986E85 /* HFSwipeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HFSwipeView.modulemap; sourceTree = "<group>"; };
-		DDEE36AA27C12301BF62586C57679543 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBCC679DCE80B1C6B8630DF85AAD1A49 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
-		EC0472D715DC6234414CEEE091F4D31B /* HFSwipeView+Offset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HFSwipeView+Offset.swift"; path = "HFSwipeView/Classes/HFSwipeView+Offset.swift"; sourceTree = "<group>"; };
+		D74D0C388CC9980C7DB98CFC30256F8C /* HFSwipeView+Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HFSwipeView+Animation.swift"; path = "HFSwipeView/Classes/HFSwipeView+Animation.swift"; sourceTree = "<group>"; };
+		E3CAD847C815D50D934CB3938219614F /* HFSwipeView+Index.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HFSwipeView+Index.swift"; path = "HFSwipeView/Classes/HFSwipeView+Index.swift"; sourceTree = "<group>"; };
+		E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureLayout.framework; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1351B1C56E2B8DDC5FB9F2CD309CB0 /* PureLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.debug.xcconfig; sourceTree = "<group>"; };
 		F982209A38F2C365C2544BCB167B9EDE /* Pods-HFSwipeView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFSwipeView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FF32C57432DF131C046B881B38CF0823 /* PureLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PureLayout-Info.plist"; sourceTree = "<group>"; };
+		FDF240BD0619498931707A316733BDCA /* PureLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PureLayout-Info.plist"; sourceTree = "<group>"; };
+		FF66D62B84F693A4CBF803155929E14A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		777F72C213DE40B1082D866BB8569D21 /* Frameworks */ = {
+		04F35FE15F9891B0264AC8BD02C713A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1B6672B3E606FA20448F19B8AE29D2B /* Foundation.framework in Frameworks */,
-				4DF72A6D8DC0A1F063208A1CCC9AD3A8 /* PureLayout.framework in Frameworks */,
+				ACB07A7494022E0C6B719CE6055F41B1 /* Foundation.framework in Frameworks */,
+				8648F39D61D1ADEDBEE3E65FD8845E08 /* PureLayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0DCFC0D1FC56442F424126C77AC28ED /* Frameworks */ = {
+		3DC3E79988EEDD7F51C6B30D6DC4FE25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78343594D457B8975059C8126EAB1EF6 /* Foundation.framework in Frameworks */,
+				5E0F2FF20918EE711D13AA7C9FF21771 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6342578FF82FFC4D70DE2B0647A2D09 /* Frameworks */ = {
+		422CD138EE2652926F1DBD3C4CDD2C43 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				851C007013F347FFED383FBB21C1CB31 /* Foundation.framework in Frameworks */,
+				22FF411294AF5E842305EF56D9364F03 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16AF20BE97995D0B8302329CA818E661 /* PureLayout */ = {
+		04A2C822144CEC05EB5AD23AE0036229 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				413A6FF54B3CD68C2A56027F590116AE /* ALView+PureLayout.h */,
-				1F452510C066F69D79FA71F5D6C693EB /* ALView+PureLayout.m */,
-				4D2FDCCF3D72F0736CC09B7323B17782 /* NSArray+PureLayout.h */,
-				4497FD627C4761AF887B21C33E180B0C /* NSArray+PureLayout.m */,
-				B20B7EF06E90077292CDA72022447A4C /* NSLayoutConstraint+PureLayout.h */,
-				ABF728ED12486F71A7CFBCA7BA5B16D0 /* NSLayoutConstraint+PureLayout.m */,
-				EBCC679DCE80B1C6B8630DF85AAD1A49 /* PureLayout.h */,
-				71709B939E91C75A435CC1D7C388EEAD /* PureLayout+Internal.h */,
-				8BDACE421BEDE29F1120BC9F9DA8BEC5 /* PureLayoutDefines.h */,
-				C86273A667B78F140C954642CEA2703A /* Support Files */,
+				EAC9B8AB680C745122A5E81420A8B977 /* PureLayout */,
 			);
-			path = PureLayout;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		13BAEF332C40797335FA8926A53D4B26 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				02E1C8ECFE9284F04F4D4F2A875AA4C1 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		1D49561A4A9EE2DCE1889C4B90510821 /* Targets Support Files */ = {
@@ -164,47 +165,39 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		323AC977676B1F9ABA1031C9809764DE /* HFSwipeView */ = {
+		3B921B9B569EEDE6F2D7AE65B64B8790 /* HFSwipeView */ = {
 			isa = PBXGroup;
 			children = (
-				2AD375FCD41AEEFA7F910304DA8446DE /* HFSwipeView.swift */,
-				1B93F723FEA3CE87AA4315DABE177EE2 /* HFSwipeView+Animation.swift */,
-				A1C627975DF85057F4F2E7D99B8F36FF /* HFSwipeView+AutoSlide.swift */,
-				C39EAA53047642479633CA28FAAE0774 /* HFSwipeView+Delegate.swift */,
-				4C8BC0E0776F3DB241894B62D66B3160 /* HFSwipeView+Index.swift */,
-				EC0472D715DC6234414CEEE091F4D31B /* HFSwipeView+Offset.swift */,
-				78EE50C8A1A81DFE61564F81DB7F9B34 /* HFSwipeView+Page.swift */,
-				3723E8563CF51A9DAB46E8885C5A744C /* HFSwipeView+Utility.swift */,
-				A1BC6221DA6F40752A45CB8AA0320FAD /* Pod */,
-				D4DFA2875781185831C873BE6AEDEC16 /* Support Files */,
+				458ADFA14BF4CD92C9981A9DF9DF44A2 /* HFSwipeView.swift */,
+				D74D0C388CC9980C7DB98CFC30256F8C /* HFSwipeView+Animation.swift */,
+				5873F5876DFDA77583BBB074C58535FA /* HFSwipeView+AutoSlide.swift */,
+				C79F85574F7745F7EA79F35F648EC567 /* HFSwipeView+Delegate.swift */,
+				E3CAD847C815D50D934CB3938219614F /* HFSwipeView+Index.swift */,
+				1A98A9017A1606DC28644E3B52516D63 /* HFSwipeView+Offset.swift */,
+				A31E29D39349C732BCACDFAC9FB5EAA2 /* HFSwipeView+Page.swift */,
+				94AC62BD4F76BB251AB0CCEC7C966968 /* HFSwipeView+Utility.swift */,
+				D960D8AD6AD3AD7158370123530C2CDD /* Pod */,
+				B822F60473ED95957263E24688CB24CC /* Support Files */,
 			);
 			name = HFSwipeView;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		3F204E59C85B481B04137043D217339C /* iOS */ = {
+		8AE915409A5F2617AA9B64F3ABD3DA7D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DDEE36AA27C12301BF62586C57679543 /* Foundation.framework */,
+				ADDBF9ABECEADFDC9D3BFC7FD8F72D67 /* HFSwipeView.framework */,
+				88D5AA651FA797D5750B0C34BB6A5632 /* Pods_HFSwipeView_Example.framework */,
+				E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout.framework */,
 			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		A1BC6221DA6F40752A45CB8AA0320FAD /* Pod */ = {
+		92A87B1CD19F552BE19BD9A82DE15CBB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2663BEE13FA40913450DAF43C675C3D7 /* HFSwipeView.podspec */,
-				6C25C41340E2DE89B0A87DED243D3B6A /* LICENSE */,
-				70752C22EDD5E401B880E7837CC34741 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		A4975EF86485DE1034369892CAF68053 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1627BF59830B90CC76C69946579C7A0C /* PureLayout.framework */,
-				3F204E59C85B481B04137043D217339C /* iOS */,
+				B06AA4C08CD7F731602FF781270AE453 /* PureLayout.framework */,
+				13BAEF332C40797335FA8926A53D4B26 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -212,31 +205,24 @@
 		AA4D3214FE909C06A3C125A310451540 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				323AC977676B1F9ABA1031C9809764DE /* HFSwipeView */,
+				3B921B9B569EEDE6F2D7AE65B64B8790 /* HFSwipeView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B739E0939D44F28FEB40F8C1E139994C /* Pods */ = {
+		B822F60473ED95957263E24688CB24CC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				16AF20BE97995D0B8302329CA818E661 /* PureLayout */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		C86273A667B78F140C954642CEA2703A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6EDCAB0CE93CC95621A817E41B52C9DC /* PureLayout.modulemap */,
-				4AF6B88A66271D7350A99C9D16D095DB /* PureLayout.xcconfig */,
-				76426C3A61A2AE8DF1AF6B1F61DC4D4B /* PureLayout-dummy.m */,
-				FF32C57432DF131C046B881B38CF0823 /* PureLayout-Info.plist */,
-				C46D643643B30F60F607EB83D81730FC /* PureLayout-prefix.pch */,
-				B4B22FB4308E58AB87B57A26464E7CDD /* PureLayout-umbrella.h */,
+				8E746E8F0025FFA151E6D6A60F2452CA /* HFSwipeView.modulemap */,
+				8EEE3F33B9B5644C0636B320132F158E /* HFSwipeView-dummy.m */,
+				44706D7D1B553CDDBD6E1F05672556DA /* HFSwipeView-Info.plist */,
+				545B6C6F7715DE1B78FFE60ED9161DFD /* HFSwipeView-prefix.pch */,
+				A8B4360B0FB43FEC57F7BB022EF6D6C5 /* HFSwipeView-umbrella.h */,
+				898B63B74E76ECC17906C74615B86E62 /* HFSwipeView.debug.xcconfig */,
+				A9CAE9495A8DA170C83BF7FDFD2E4023 /* HFSwipeView.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/PureLayout";
+			path = "Example/Pods/Target Support Files/HFSwipeView";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -244,25 +230,21 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				AA4D3214FE909C06A3C125A310451540 /* Development Pods */,
-				A4975EF86485DE1034369892CAF68053 /* Frameworks */,
-				B739E0939D44F28FEB40F8C1E139994C /* Pods */,
-				ED7E002130A8D52CD7854101D2FCBA2B /* Products */,
+				92A87B1CD19F552BE19BD9A82DE15CBB /* Frameworks */,
+				04A2C822144CEC05EB5AD23AE0036229 /* Pods */,
+				8AE915409A5F2617AA9B64F3ABD3DA7D /* Products */,
 				1D49561A4A9EE2DCE1889C4B90510821 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D4DFA2875781185831C873BE6AEDEC16 /* Support Files */ = {
+		D960D8AD6AD3AD7158370123530C2CDD /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D94BEB77A107EB0F7B31F6337E986E85 /* HFSwipeView.modulemap */,
-				1B183B135415A53D44B92397BBE8930F /* HFSwipeView.xcconfig */,
-				882039B3BB270CC61B4E854C539E6EA2 /* HFSwipeView-dummy.m */,
-				3F74B16EBC7B4E115F1BA220403EA6F5 /* HFSwipeView-Info.plist */,
-				77A55D21DD8B0C0332048DAA2676A353 /* HFSwipeView-prefix.pch */,
-				20431867272AB5AC503E9E65A20CCF61 /* HFSwipeView-umbrella.h */,
+				6C5B60E8D6929B5758E3DF4036643744 /* HFSwipeView.podspec */,
+				72CCDE581952A9C381DAFC2B3CB8B18B /* LICENSE */,
+				FF66D62B84F693A4CBF803155929E14A /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HFSwipeView";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		DFB578CF1C8E7364241297940A159A32 /* Pods-HFSwipeView_Example */ = {
@@ -282,46 +264,69 @@
 			path = "Target Support Files/Pods-HFSwipeView_Example";
 			sourceTree = "<group>";
 		};
-		ED7E002130A8D52CD7854101D2FCBA2B /* Products */ = {
+		EAC9B8AB680C745122A5E81420A8B977 /* PureLayout */ = {
 			isa = PBXGroup;
 			children = (
-				ADDBF9ABECEADFDC9D3BFC7FD8F72D67 /* HFSwipeView.framework */,
-				88D5AA651FA797D5750B0C34BB6A5632 /* Pods_HFSwipeView_Example.framework */,
-				E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout.framework */,
+				60C6D25262D32268BEDE0B7F4224B3D0 /* ALView+PureLayout.h */,
+				72503E8459A11CE9484D8DE1FAD02FB2 /* ALView+PureLayout.m */,
+				45AC65611F73E1FFBCF46C219B705712 /* NSArray+PureLayout.h */,
+				612A8F178DE352A805ACD25C44C62955 /* NSArray+PureLayout.m */,
+				7F66714670BEA2F02A67149FFDEEDEA6 /* NSLayoutConstraint+PureLayout.h */,
+				BF7C0824DBFBE95FCB8AA094AA709D0E /* NSLayoutConstraint+PureLayout.m */,
+				CE22508875A0D08F4828B1309EE3DEF1 /* PureLayout.h */,
+				950BFB13C3F461C7AC6E88BDA4CCC3F1 /* PureLayout+Internal.h */,
+				2810148A7EBC87627DB1E287B24403AE /* PureLayoutDefines.h */,
+				FB641262D1994F2A050C1333C75F68A5 /* Support Files */,
 			);
-			name = Products;
+			name = PureLayout;
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		FB641262D1994F2A050C1333C75F68A5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B86FD6AAE4C8C9F226BEEC1908F6633C /* PureLayout.modulemap */,
+				3391B4FA48EC4B1EC8D9E68BE9142FFB /* PureLayout-dummy.m */,
+				FDF240BD0619498931707A316733BDCA /* PureLayout-Info.plist */,
+				B83D6B9B2B530259D869B941C15ADC5E /* PureLayout-prefix.pch */,
+				28B207639271F0B3AD2D7C527B48C530 /* PureLayout-umbrella.h */,
+				EA1351B1C56E2B8DDC5FB9F2CD309CB0 /* PureLayout.debug.xcconfig */,
+				AB586A7A8FDC1784D640F872D02B90DB /* PureLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PureLayout";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		28C794BE39DA269C0600E444340EC511 /* Headers */ = {
+		9F043F58E9DFCB1E3BD8EF30F743CD2E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C70575B1DDF159BFBC7CCFDB3F49515C /* ALView+PureLayout.h in Headers */,
-				00834ADD831A313F1F0C25940B2DBF87 /* NSArray+PureLayout.h in Headers */,
-				C01DACFB84BA98CC561488FE4E567FD9 /* NSLayoutConstraint+PureLayout.h in Headers */,
-				5613F471011B88018A528A9D7B6B77A5 /* PureLayout+Internal.h in Headers */,
-				2F1C9082EBF4403808D598E1A78882C0 /* PureLayout-umbrella.h in Headers */,
-				5A54235CF8355596FF185C4DFBD4224E /* PureLayout.h in Headers */,
-				90A6E978829D1AFE34108D4F14697586 /* PureLayoutDefines.h in Headers */,
+				E14DADF691B6BB45D1BF213EBEB0A19B /* ALView+PureLayout.h in Headers */,
+				94E93C8DA12A882C8E2072E8620FD954 /* NSArray+PureLayout.h in Headers */,
+				BDEE89012AF76404281099A63A8D5379 /* NSLayoutConstraint+PureLayout.h in Headers */,
+				9FBDE32DAFCEE924C5DB842E259B0BA7 /* PureLayout+Internal.h in Headers */,
+				4B45E7256A78106F5DEFDD4E53B3C067 /* PureLayout-umbrella.h in Headers */,
+				C33C2D0907248D16A2D2F4117C2BC66A /* PureLayout.h in Headers */,
+				BE14F80C18579C825AF04D79768E59B0 /* PureLayoutDefines.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62956D13D664CC9628BC67A810BC4035 /* Headers */ = {
+		B79796FCB1B4853C5E19EB6BC92D642F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				752FE32705F40586DD428179CAE69F92 /* HFSwipeView-umbrella.h in Headers */,
+				3DCA3085F7DD782A6D5C3B7F2D6E9A14 /* Pods-HFSwipeView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AD3772FC88BD335C6871350E497FEBB /* Headers */ = {
+		E7D75EA06FC2DEEE89CBB34368590366 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2357BF94A6D8B6A61927A1F50737DAF8 /* Pods-HFSwipeView_Example-umbrella.h in Headers */,
+				5E1E7EC8750B2FEB3ADFDA0D13445A58 /* HFSwipeView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,12 +335,12 @@
 /* Begin PBXNativeTarget section */
 		06F5CDD6235E25837519792853B145A1 /* PureLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8010B581A796421BFB2B702790E5DA62 /* Build configuration list for PBXNativeTarget "PureLayout" */;
+			buildConfigurationList = BBB33A832D8718564607331C33B9475E /* Build configuration list for PBXNativeTarget "PureLayout" */;
 			buildPhases = (
-				28C794BE39DA269C0600E444340EC511 /* Headers */,
-				89A2ECE9A1C3C7FB2CBD79A0E3A41A3E /* Sources */,
-				C6342578FF82FFC4D70DE2B0647A2D09 /* Frameworks */,
-				123176EA0247C77653712DE1C900DFD3 /* Resources */,
+				9F043F58E9DFCB1E3BD8EF30F743CD2E /* Headers */,
+				178F791BA1FB7D63178988398873A2F6 /* Sources */,
+				422CD138EE2652926F1DBD3C4CDD2C43 /* Frameworks */,
+				8C843EEF1E1998C1AE1711A8CCB7CB0E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -348,17 +353,17 @@
 		};
 		25949039E9917492A04DC0809223BFD7 /* HFSwipeView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9728DC7734404C214B2BAC23A9DD950C /* Build configuration list for PBXNativeTarget "HFSwipeView" */;
+			buildConfigurationList = 25DE2BA56441B50076CDF0E110AD6F73 /* Build configuration list for PBXNativeTarget "HFSwipeView" */;
 			buildPhases = (
-				62956D13D664CC9628BC67A810BC4035 /* Headers */,
-				8E8AEAF20F4AFE0C11CCCE15F15A57C0 /* Sources */,
-				777F72C213DE40B1082D866BB8569D21 /* Frameworks */,
-				7AB5A5498808368CB1FDFB1B690FF165 /* Resources */,
+				E7D75EA06FC2DEEE89CBB34368590366 /* Headers */,
+				9797F1DB79BAEBE2F4632C07BD370986 /* Sources */,
+				04F35FE15F9891B0264AC8BD02C713A4 /* Frameworks */,
+				E74A43C8E12C599E96FBB038B5729EB4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5E08DEA5D649FFEFB4E0671EC7129165 /* PBXTargetDependency */,
+				A18584C0C9030EF220D18C9E1DBF55E0 /* PBXTargetDependency */,
 			);
 			name = HFSwipeView;
 			productName = HFSwipeView;
@@ -367,18 +372,18 @@
 		};
 		81E3EE027EA7A4D7BD5E950D5954F8B3 /* Pods-HFSwipeView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53C2984BBC31362AF2C3093BCC2A3E0D /* Build configuration list for PBXNativeTarget "Pods-HFSwipeView_Example" */;
+			buildConfigurationList = 6C121E7351F1FFBDC51B8BD8C88BE071 /* Build configuration list for PBXNativeTarget "Pods-HFSwipeView_Example" */;
 			buildPhases = (
-				9AD3772FC88BD335C6871350E497FEBB /* Headers */,
-				2D50229BB0FA658CD8717529D9DC4785 /* Sources */,
-				A0DCFC0D1FC56442F424126C77AC28ED /* Frameworks */,
-				7960B8D56ABC1829056488456CF04C3E /* Resources */,
+				B79796FCB1B4853C5E19EB6BC92D642F /* Headers */,
+				3A2632D71D4A5CBB405837D011E40C8D /* Sources */,
+				3DC3E79988EEDD7F51C6B30D6DC4FE25 /* Frameworks */,
+				925D31BEEC7EB6E034F117151C0D8AD7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C397BBC156003407692D3161525FBA02 /* PBXTargetDependency */,
-				94BF72AE5072D20B78FC777CD1757017 /* PBXTargetDependency */,
+				AE0E435D53CAB5E175E3593533F7CB22 /* PBXTargetDependency */,
+				98EB310BC5FEA446BFADE43725667427 /* PBXTargetDependency */,
 			);
 			name = "Pods-HFSwipeView_Example";
 			productName = "Pods-HFSwipeView_Example";
@@ -393,11 +398,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					25949039E9917492A04DC0809223BFD7 = {
-						LastSwiftMigration = 1140;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -408,7 +408,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = ED7E002130A8D52CD7854101D2FCBA2B /* Products */;
+			productRefGroup = 8AE915409A5F2617AA9B64F3ABD3DA7D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -420,21 +420,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		123176EA0247C77653712DE1C900DFD3 /* Resources */ = {
+		8C843EEF1E1998C1AE1711A8CCB7CB0E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7960B8D56ABC1829056488456CF04C3E /* Resources */ = {
+		925D31BEEC7EB6E034F117151C0D8AD7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7AB5A5498808368CB1FDFB1B690FF165 /* Resources */ = {
+		E74A43C8E12C599E96FBB038B5729EB4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -444,68 +444,68 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2D50229BB0FA658CD8717529D9DC4785 /* Sources */ = {
+		178F791BA1FB7D63178988398873A2F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DD6D3BC9455D021F4437C92548FA364 /* Pods-HFSwipeView_Example-dummy.m in Sources */,
+				BE88B5E9BC3D536B1A0654782E244D69 /* ALView+PureLayout.m in Sources */,
+				31D3E2CABD248F83B86FBD799DCF505C /* NSArray+PureLayout.m in Sources */,
+				E2EFDA5A6C086391446E8FBFEB1D9158 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				516D98B037D8B96D7D965E28C5B5E488 /* PureLayout-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89A2ECE9A1C3C7FB2CBD79A0E3A41A3E /* Sources */ = {
+		3A2632D71D4A5CBB405837D011E40C8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12B528E2CA78941824B8F57B1563E2A2 /* ALView+PureLayout.m in Sources */,
-				B0E7AFF45A59184EC4FCB29A6BAD1911 /* NSArray+PureLayout.m in Sources */,
-				D320D37FDE1A297739901258B28DE0BD /* NSLayoutConstraint+PureLayout.m in Sources */,
-				21813E20681CB956F780B0DB45420367 /* PureLayout-dummy.m in Sources */,
+				C2FF7B55B06241AA398E606B178C6688 /* Pods-HFSwipeView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E8AEAF20F4AFE0C11CCCE15F15A57C0 /* Sources */ = {
+		9797F1DB79BAEBE2F4632C07BD370986 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E362C99126B3C67C1298402C574D068B /* HFSwipeView+Animation.swift in Sources */,
-				51F6577E8FA55C75AECBC57466C8D73E /* HFSwipeView+AutoSlide.swift in Sources */,
-				D093D951227A3B4E9E36E2E40306AE31 /* HFSwipeView+Delegate.swift in Sources */,
-				D1D9B581E24B57CDA7561EAFFA37166A /* HFSwipeView+Index.swift in Sources */,
-				92E450B4E7EE1D8B98D616BDE916CE6F /* HFSwipeView+Offset.swift in Sources */,
-				044D97AA54EAFBFCC45A47C1B4464FAA /* HFSwipeView+Page.swift in Sources */,
-				6636ED225448C5C3F29F723F5547B71D /* HFSwipeView+Utility.swift in Sources */,
-				1F7A98B02953BA4D656446700586AA37 /* HFSwipeView-dummy.m in Sources */,
-				5580B6AAB4F8CF46A567F96090ADFD3A /* HFSwipeView.swift in Sources */,
+				76F798DAE7B544DD20001CC5E0F664FA /* HFSwipeView+Animation.swift in Sources */,
+				D4625837084E5D958AA0075817646960 /* HFSwipeView+AutoSlide.swift in Sources */,
+				6461AB69D2B60F118C3CCD7B221A1D8C /* HFSwipeView+Delegate.swift in Sources */,
+				D0816908CFED40430BAFE01DFEDB2D7B /* HFSwipeView+Index.swift in Sources */,
+				6F46DED147AE43CD2A25B367EEEC1D8F /* HFSwipeView+Offset.swift in Sources */,
+				63C0929E43D71CD864423662221DCF6F /* HFSwipeView+Page.swift in Sources */,
+				4A3B94C897F21777FA085B543EA2C65D /* HFSwipeView+Utility.swift in Sources */,
+				D57D5FC493FE3610D69FE0DFABE84D3C /* HFSwipeView-dummy.m in Sources */,
+				1FBD2A08D29D7AAAD4C5D2198691D74E /* HFSwipeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5E08DEA5D649FFEFB4E0671EC7129165 /* PBXTargetDependency */ = {
+		98EB310BC5FEA446BFADE43725667427 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PureLayout;
 			target = 06F5CDD6235E25837519792853B145A1 /* PureLayout */;
-			targetProxy = E7C1191606920FA76FB1B1C49609F8A8 /* PBXContainerItemProxy */;
+			targetProxy = C58EEC4CDBC0103821A4EACFE78EA8E9 /* PBXContainerItemProxy */;
 		};
-		94BF72AE5072D20B78FC777CD1757017 /* PBXTargetDependency */ = {
+		A18584C0C9030EF220D18C9E1DBF55E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PureLayout;
 			target = 06F5CDD6235E25837519792853B145A1 /* PureLayout */;
-			targetProxy = 30468BD599E67C214ADA747932D16E38 /* PBXContainerItemProxy */;
+			targetProxy = B39DE2BF4749CEB3AC72FDA6D0C8CA07 /* PBXContainerItemProxy */;
 		};
-		C397BBC156003407692D3161525FBA02 /* PBXTargetDependency */ = {
+		AE0E435D53CAB5E175E3593533F7CB22 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HFSwipeView;
 			target = 25949039E9917492A04DC0809223BFD7 /* HFSwipeView */;
-			targetProxy = 04BA5E08FA6DEFEA3E80D36A4F13EB68 /* PBXContainerItemProxy */;
+			targetProxy = CC8B85E3A34F029219D63E53B6CF51C5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		24A3A663C9CC9E17D1358779141539B1 /* Debug */ = {
+		08172B7B1539181B64E9AA4B73231181 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B183B135415A53D44B92397BBE8930F /* HFSwipeView.xcconfig */;
+			baseConfigurationReference = EA1351B1C56E2B8DDC5FB9F2CD309CB0 /* PureLayout.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -516,57 +516,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HFSwipeView/HFSwipeView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HFSwipeView/HFSwipeView-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/PureLayout-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HFSwipeView/HFSwipeView.modulemap";
-				PRODUCT_MODULE_NAME = HFSwipeView;
-				PRODUCT_NAME = HFSwipeView;
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				PRODUCT_MODULE_NAME = PureLayout;
+				PRODUCT_NAME = PureLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		39F5151B1A8BE068C1EF668785B22E34 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F982209A38F2C365C2544BCB167B9EDE /* Pods-HFSwipeView_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HFSwipeView_Example/Pods-HFSwipeView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HFSwipeView_Example/Pods-HFSwipeView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		60A7F9B4A8E92A5B16CC2AA887D9FE07 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -621,9 +587,76 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6CB160279C69975BFF5055B89940DC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F982209A38F2C365C2544BCB167B9EDE /* Pods-HFSwipeView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HFSwipeView_Example/Pods-HFSwipeView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HFSwipeView_Example/Pods-HFSwipeView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7356E162C24663B29C67D7CF22873B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB586A7A8FDC1784D640F872D02B90DB /* PureLayout.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/PureLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				PRODUCT_MODULE_NAME = PureLayout;
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -691,40 +724,9 @@
 			};
 			name = Debug;
 		};
-		8B1628BC2A238DAFAB23417C9B289F8F /* Debug */ = {
+		A1451C0DFAE274AE9BB774EB403CAF1F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AF6B88A66271D7350A99C9D16D095DB /* PureLayout.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PureLayout/PureLayout-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
-				PRODUCT_MODULE_NAME = PureLayout;
-				PRODUCT_NAME = PureLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 3.0.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A53574D1483348D2569290E7202E8EB9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B183B135415A53D44B92397BBE8930F /* HFSwipeView.xcconfig */;
+			baseConfigurationReference = 898B63B74E76ECC17906C74615B86E62 /* HFSwipeView.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -746,17 +748,16 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		AC76B7583329D79184E96AD83B4BB8DF /* Release */ = {
+		D8C825DCE35796EBCC12E868B311E9FB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AF6B88A66271D7350A99C9D16D095DB /* PureLayout.xcconfig */;
+			baseConfigurationReference = A9CAE9495A8DA170C83BF7FDFD2E4023 /* HFSwipeView.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -767,18 +768,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PureLayout/PureLayout-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/HFSwipeView/HFSwipeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HFSwipeView/HFSwipeView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
-				PRODUCT_MODULE_NAME = PureLayout;
-				PRODUCT_NAME = PureLayout;
+				MODULEMAP_FILE = "Target Support Files/HFSwipeView/HFSwipeView.modulemap";
+				PRODUCT_MODULE_NAME = HFSwipeView;
+				PRODUCT_NAME = HFSwipeView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 3.0.1;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -786,7 +787,7 @@
 			};
 			name = Release;
 		};
-		B609FA41E9B7E914B44DEFEB746AB0CF /* Debug */ = {
+		F090C0DD9AFDFABD415ED5B56D16ECE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A36EFB0A304575DBA380C6BC291B0EE6 /* Pods-HFSwipeView_Example.debug.xcconfig */;
 			buildSettings = {
@@ -822,6 +823,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		25DE2BA56441B50076CDF0E110AD6F73 /* Build configuration list for PBXNativeTarget "HFSwipeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1451C0DFAE274AE9BB774EB403CAF1F /* Debug */,
+				D8C825DCE35796EBCC12E868B311E9FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -831,29 +841,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53C2984BBC31362AF2C3093BCC2A3E0D /* Build configuration list for PBXNativeTarget "Pods-HFSwipeView_Example" */ = {
+		6C121E7351F1FFBDC51B8BD8C88BE071 /* Build configuration list for PBXNativeTarget "Pods-HFSwipeView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B609FA41E9B7E914B44DEFEB746AB0CF /* Debug */,
-				39F5151B1A8BE068C1EF668785B22E34 /* Release */,
+				F090C0DD9AFDFABD415ED5B56D16ECE0 /* Debug */,
+				6CB160279C69975BFF5055B89940DC46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8010B581A796421BFB2B702790E5DA62 /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
+		BBB33A832D8718564607331C33B9475E /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B1628BC2A238DAFAB23417C9B289F8F /* Debug */,
-				AC76B7583329D79184E96AD83B4BB8DF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9728DC7734404C214B2BAC23A9DD950C /* Build configuration list for PBXNativeTarget "HFSwipeView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				24A3A663C9CC9E17D1358779141539B1 /* Debug */,
-				A53574D1483348D2569290E7202E8EB9 /* Release */,
+				08172B7B1539181B64E9AA4B73231181 /* Debug */,
+				7356E162C24663B29C67D7CF22873B7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
