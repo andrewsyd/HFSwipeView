@@ -12,13 +12,6 @@
             buildForRunning = "YES"
             buildForProfiling = "YES"
             buildForArchiving = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F4C12E4E865DC02EB3F62EE228D5FAD2"
-               BuildableName = "TinyLog.framework"
-               BlueprintName = "TinyLog"
-               ReferencedContainer = "container:Pods.xcodeproj">
-            </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
