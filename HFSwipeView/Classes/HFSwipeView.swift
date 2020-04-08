@@ -106,7 +106,7 @@ open class HFSwipeView: UIView {
     open var pageControlInsets: UIEdgeInsets = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
     
     // MARK: Views
-    open let pageControl: UIPageControl = {
+    public let pageControl: UIPageControl = {
         let view = UIPageControl.newAutoLayout()
         return view
     }()
@@ -126,7 +126,7 @@ open class HFSwipeView: UIView {
         view.register(UICollectionViewCell.classForCoder(), forCellWithReuseIdentifier: self.kSwipeViewCellIdentifier)
         view.showsHorizontalScrollIndicator = false
         view.showsVerticalScrollIndicator = false
-        view.decelerationRate = UIScrollViewDecelerationRateFast
+        view.decelerationRate = UIScrollView.DecelerationRate.fast
         view.backgroundColor = .clear
         return view
     }()
