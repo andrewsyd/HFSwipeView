@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import TinyLog
 
 extension UIView {
     public func setBorder(_ width: CGFloat, color: UIColor) {
@@ -17,14 +16,14 @@ extension UIView {
 }
 
 public enum TestSegue: String {
-    
+
     case
     kSegueSimpleController                  = "kSegueSimpleController",
     kSegueSimpleCirculatingController       = "kSegueSimpleCirculatingController",
     kSegueMagnifyController                 = "kSegueMagnifyController",
     kSegueAutoSlideController               = "kSegueAutoSlideController",
     kSegueEdgePreviewController             = "kSegueEdgePreviewController"
-    
+
     static let allValues: NSArray = [
         kSegueSimpleController.rawValue,
         kSegueSimpleCirculatingController.rawValue,
@@ -35,16 +34,16 @@ public enum TestSegue: String {
 }
 
 class MainController: UIViewController {
-    
+
     fileprivate let kTestCellMenuIdentifier = "kTestCellMenuIdentifier"
     fileprivate var tableView: UITableView!
-    
+
     let menuItems: NSArray = TestSegue.allValues
-    
+
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView = UITableView(frame: view.frame)
@@ -52,7 +51,7 @@ class MainController: UIViewController {
         tableView.dataSource = self
         view.addSubview(tableView)
     }
-    
+
     func titleForIndexPath(_ indexPath: IndexPath) -> String {
         var title: String!
         switch indexPath.row {
@@ -76,7 +75,7 @@ class MainController: UIViewController {
 extension MainController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let segue: String = menuItems.object(at: indexPath.row) as! String
-        log("tableView - didSelectRowAtIndexPath: \(indexPath.row), segue: \(segue)")
+//        log("tableView - didSelectRowAtIndexPath: \(indexPath.row), segue: \(segue)")
         self.performSegue(withIdentifier: segue, sender: self)
     }
 }
@@ -85,7 +84,7 @@ extension MainController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return menuItems.count
     }
-    
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let dequeuedCell: UITableViewCell? = tableView.dequeueReusableCell(withIdentifier: kTestCellMenuIdentifier)
         var cell: UITableViewCell? = nil

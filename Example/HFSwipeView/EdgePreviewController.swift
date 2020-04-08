@@ -8,19 +8,18 @@
 
 import UIKit
 import HFSwipeView
-import TinyLog
 
 class EdgePreviewController: UIViewController {
-    
+
     // sample item count for two swipe view
     fileprivate let sampleCount: Int = 10
     fileprivate var currentFullView: UILabel?
     fileprivate var didSetupConstraints: Bool = false
-    
+
     fileprivate var fullItemSize: CGSize {
         return CGSize(width: swipeView.frame.size.width - 70, height: swipeView.frame.size.height)
     }
-    
+
     fileprivate lazy var swipeView: HFSwipeView = {
         let view = HFSwipeView.newAutoLayout()
         view.isDebug = true
@@ -35,17 +34,17 @@ class EdgePreviewController: UIViewController {
         view.backgroundColor = UIColor.clear
         return view
     }()
-    
+
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.automaticallyAdjustsScrollViewInsets = false
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(swipeView)
     }
-    
+
     override func updateViewConstraints() {
         if !didSetupConstraints {
             swipeView.autoMatch(.height, to: .height, of: self.view, withMultiplier: 0.8)
@@ -85,7 +84,7 @@ extension EdgePreviewController: HFSwipeViewDataSource {
         }
     }
     func swipeView(_ swipeView: HFSwipeView, needUpdateCurrentViewForIndexPath indexPath: IndexPath, view: UIView) {
-        log("HFSwipeView(\(swipeView.tag)) -> \(indexPath.row)")
+//        log("HFSwipeView(\(swipeView.tag)) -> \(indexPath.row)")
         currentFullView?.setBorder(0.5, color: UIColor.black)
         currentFullView = view as? UILabel
         currentFullView?.text = "\(indexPath.row)"
@@ -96,14 +95,14 @@ extension EdgePreviewController: HFSwipeViewDataSource {
 // MARK: - HFSwipeViewDelegate
 extension EdgePreviewController: HFSwipeViewDelegate {
     func swipeView(_ swipeView: HFSwipeView, didFinishScrollAtIndexPath indexPath: IndexPath) {
-        log("HFSwipeView(\(swipeView.tag)) -> \(indexPath.row)")
+//        log("HFSwipeView(\(swipeView.tag)) -> \(indexPath.row)")
     }
-    
+
     func swipeView(_ swipeView: HFSwipeView, didSelectItemAtPath indexPath: IndexPath) {
-        log("HFSwipeView(\(swipeView.tag)) -> \(indexPath.row)")
+//        log("HFSwipeView(\(swipeView.tag)) -> \(indexPath.row)")
     }
-    
+
     func swipeView(_ swipeView: HFSwipeView, didChangeIndexPath indexPath: IndexPath, changedView view: UIView) {
-        log("HFSwipeView(\(swipeView.tag)) -> \(indexPath.row)")
+//        log("HFSwipeView(\(swipeView.tag)) -> \(indexPath.row)")
     }
 }

@@ -8,13 +8,12 @@
 
 import UIKit
 import HFSwipeView
-import TinyLog
 
 class SimpleCirculatingController: UIViewController {
-    
+
     fileprivate let sampleCount: Int = 3
     fileprivate var didSetupConstraints: Bool = false
-    
+
     fileprivate lazy var swipeView: HFSwipeView = {
         let view = HFSwipeView.newAutoLayout()
         view.isDebug = true
@@ -32,17 +31,17 @@ class SimpleCirculatingController: UIViewController {
     fileprivate var itemSize: CGSize {
         return CGSize(width: 100, height: 100)
     }
-    
+
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.automaticallyAdjustsScrollViewInsets = false
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(swipeView)
     }
-    
+
     override func updateViewConstraints() {
         if !didSetupConstraints {
             swipeView.autoSetDimension(.height, toSize: itemSize.height)
@@ -53,14 +52,14 @@ class SimpleCirculatingController: UIViewController {
         }
         super.updateViewConstraints()
     }
-    
+
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         self.swipeView.setBorder(1, color: .black)
     }
-    
+
     func updateCellView(_ view: UIView, indexPath: IndexPath, isCurrent: Bool) {
-        
+
         if let label = view as? UILabel {
             if isCurrent {
                 if label != currentView {
@@ -75,8 +74,8 @@ class SimpleCirculatingController: UIViewController {
             label.textAlignment = .center
             label.text = "\(indexPath.row)"
             label.setBorder(1, color: .black)
-            
-            log("[\(indexPath.row)] -> isCurrent: \(isCurrent)")
+
+//            log("[\(indexPath.row)] -> isCurrent: \(isCurrent)")
         } else {
             assertionFailure("failed to retrieve UILabel for index: \(indexPath.row)")
         }
@@ -86,15 +85,15 @@ class SimpleCirculatingController: UIViewController {
 // MARK: - HFSwipeViewDelegate
 extension SimpleCirculatingController: HFSwipeViewDelegate {
     func swipeView(_ swipeView: HFSwipeView, didFinishScrollAtIndexPath indexPath: IndexPath) {
-        log("HFSwipeView(\(swipeView.tag)) -> \(indexPath.row)")
+//        log("HFSwipeView(\(swipeView.tag)) -> \(indexPath.row)")
     }
-    
+
     func swipeView(_ swipeView: HFSwipeView, didSelectItemAtPath indexPath: IndexPath) {
-        log("HFSwipeView(\(swipeView.tag)) -> \(indexPath.row)")
+//        log("HFSwipeView(\(swipeView.tag)) -> \(indexPath.row)")
     }
-    
+
     func swipeView(_ swipeView: HFSwipeView, didChangeIndexPath indexPath: IndexPath, changedView view: UIView) {
-        log("HFSwipeView(\(swipeView.tag)) -> \(indexPath.row)")
+//        log("HFSwipeView(\(swipeView.tag)) -> \(indexPath.row)")
     }
 }
 
@@ -107,15 +106,15 @@ extension SimpleCirculatingController: HFSwipeViewDataSource {
         return sampleCount
     }
     func swipeView(_ swipeView: HFSwipeView, viewForIndexPath indexPath: IndexPath) -> UIView {
-        log("[\(indexPath.row)]")
+//        log("[\(indexPath.row)]")
         return UILabel(frame: CGRect(origin: .zero, size: itemSize))
     }
     func swipeView(_ swipeView: HFSwipeView, needUpdateViewForIndexPath indexPath: IndexPath, view: UIView) {
-        log("[\(indexPath.row)]")
+//        log("[\(indexPath.row)]")
         updateCellView(view, indexPath: indexPath, isCurrent: false)
     }
     func swipeView(_ swipeView: HFSwipeView, needUpdateCurrentViewForIndexPath indexPath: IndexPath, view: UIView) {
-        log("[\(indexPath.row)]")
+//        log("[\(indexPath.row)]")
         updateCellView(view, indexPath: indexPath, isCurrent: true)
     }
 }
